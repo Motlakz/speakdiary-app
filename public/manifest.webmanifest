@@ -1,0 +1,67 @@
+{
+  "name": "SpeakDiary — Daily Journal Prompts & Voice Journaling",
+  "short_name": "SpeakDiary",
+  "description": "Daily journal prompts, 365 writing prompts, voice-to-text journaling, mood tracking, and streak habits in one free app.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf9f7",
+  "theme_color": "#0c0b0a",
+  "orientation": "portrait",
+  "categories": ["lifestyle", "health", "productivity"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/screenshot-prompts.png",
+      "sizes": "1290x2796",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Daily journal prompts and journal prompt of the day"
+    },
+    {
+      "src": "/assets/screenshot-voice.png",
+      "sizes": "1290x2796",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Voice journaling with real-time transcription"
+    },
+    {
+      "src": "/assets/screenshot-insights.png",
+      "sizes": "1290x2796",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mood insights and journaling streak tracking"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/app/speakdiary/idYOUR_APP_ID",
+      "id": "YOUR_APP_ID"
+    },
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.speakdiary",
+      "id": "com.speakdiary"
+    }
+  ],
+  "prefer_related_applications": true
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://speakdiary.com/</loc>
+
+    <image:image>
+      <image:loc>https://speakdiary.com/assets/og-image.png</image:loc>
+      <image:title>SpeakDiary — Daily Journal Prompts and Voice Journaling App</image:title>
+      <image:caption>SpeakDiary app interface showing daily journal prompts, voice recording, and mood tracking features</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://speakdiary.com/assets/screenshot-prompts.png</image:loc>
+      <image:title>365 Daily Journal Prompts in SpeakDiary</image:title>
+      <image:caption>SpeakDiary daily journal prompts screen showing the journal prompt of the day and morning writing prompts</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://speakdiary.com/assets/screenshot-voice.png</image:loc>
+      <image:title>Voice Journaling with Speech-to-Text in SpeakDiary</image:title>
+      <image:caption>SpeakDiary voice recording screen with real-time speech-to-text transcription for voice journaling</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://speakdiary.com/assets/screenshot-insights.png</image:loc>
+      <image:title>Mood Insights and Journal Analytics in SpeakDiary</image:title>
+      <image:caption>SpeakDiary insights screen showing mood trends, writing streaks, and personal journal analytics</image:caption>
+    </image:image>
+
+  </url>
+
+</urlset>

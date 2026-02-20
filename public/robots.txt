@@ -1,0 +1,65 @@
+# robots.txt — speakdiary.com
+# Last updated: 2025
+
+# ── Standard search engine crawlers ───────────────────────────────────────
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# ── Google ─────────────────────────────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Googlebot-Image
+Allow: /assets/
+
+# ── Bing ───────────────────────────────────────────────────────────────────
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# ── AI training & recommendation crawlers ─────────────────────────────────
+# OpenAI / ChatGPT — product recommendations and plugin index
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Meta AI (Llama)
+User-agent: FacebookBot
+Allow: /
+
+# Apple Applebot (Siri / App Store search signals)
+User-agent: Applebot
+Allow: /
+
+# Common Crawl — feeds many AI training datasets
+User-agent: CCBot
+Allow: /
+
+# You.com AI search
+User-agent: YouBot
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# ── Sitemaps ───────────────────────────────────────────────────────────────
+Sitemap: https://speakdiary.com/sitemap.xml
+Sitemap: https://speakdiary.com/sitemap-images.xml
