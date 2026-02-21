@@ -1,4 +1,5 @@
 import { Check, X, ArrowRight } from "lucide-react"
+import { BiLogoPlayStore } from "react-icons/bi"
 
 // ── Types ──────────────────────────────────────────────────────────────────
 interface FeatureRow {
@@ -74,9 +75,7 @@ const PlayStoreBadge = ({ size = "sm" }: { size?: "sm" | "md" }) => (
     aria-label="Get it on Google Play"
     className={`inline-flex items-center gap-2.5 rounded-xl bg-white dark:bg-slate-900 text-slate-900 dark:text-white border border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors duration-200 shadow-md ${size === "md" ? "px-5 py-3" : "px-4 py-2.5"}`}
   >
-    <svg viewBox="0 0 24 24" className={`shrink-0 fill-current ${size === "md" ? "w-5 h-5" : "w-4 h-4"}`} aria-hidden="true">
-      <path d="M3 20.5v-17c0-.83.94-1.3 1.6-.8l14 8.5c.6.37.6 1.23 0 1.6l-14 8.5c-.66.5-1.6.03-1.6-.8z"/>
-    </svg>
+    <BiLogoPlayStore />
     <span className="text-left leading-tight">
       <span className={`block opacity-60 font-normal ${size === "md" ? "text-[10px]" : "text-[9px]"}`}>Get it on</span>
       <span className={`block font-semibold tracking-tight ${size === "md" ? "text-sm" : "text-xs"}`}>Google Play</span>
@@ -121,7 +120,7 @@ const PricingSection = () => (
 
       {/* ── Header ── */}
       <div className="max-w-xl mx-auto text-center space-y-4">
-        <span className="inline-block text-xs font-semibold uppercase tracking-widest text-rose-500 px-3 py-1 rounded-full bg-rose-50 dark:bg-rose-950/40 border border-rose-100 dark:border-rose-800/30">
+        <span className="inline-block text-xs font-semibold uppercase tracking-widest text-pink-500 px-3 py-1 rounded-full bg-rose-50 dark:bg-rose-950/40 border border-rose-100 dark:border-rose-800/30">
           Pricing
         </span>
         <h2
@@ -129,7 +128,7 @@ const PricingSection = () => (
           className="text-[clamp(2rem,4vw,3rem)] font-playfair font-bold leading-tight tracking-tight text-slate-900 dark:text-slate-50"
         >
           Free to start.{" "}
-          <span className="italic text-rose-500">Pro when you&apos;re ready.</span>
+          <span className="italic text-pink-500">Pro when you&apos;re ready.</span>
         </h2>
         <p className="text-base text-slate-500 dark:text-slate-400">
           Download and journal immediately - no account or card needed to begin.
@@ -197,7 +196,7 @@ const PricingSection = () => (
               {plan.savings && (
                 <span className={`absolute -top-2.5 left-1/2 -translate-x-1/2 text-[10px] font-bold px-3 py-0.5 rounded-full whitespace-nowrap ${
                   plan.highlight
-                    ? "bg-rose-500 text-white"
+                    ? "bg-pink-500 text-white"
                     : "bg-amber-100 dark:bg-amber-900/40 text-amber-700 dark:text-amber-400"
                 }`}>
                   {plan.savings}
@@ -249,7 +248,7 @@ const PricingSection = () => (
           className="text-xl sm:text-2xl font-playfair font-bold text-white dark:text-slate-900 leading-snug"
         >
           Start journaling today.{" "}
-          <span className="italic text-rose-400 dark:text-rose-500">Free forever, or go Pro.</span>
+          <span className="italic text-pink-400 dark:text-pink-500">Free forever, or go Pro.</span>
         </p>
         <p className="text-sm text-slate-400 dark:text-slate-500">
           Your free trial begins automatically when you choose a Pro plan inside the app.

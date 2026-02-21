@@ -1,4 +1,4 @@
-import { Linkedin, Twitter, PenTool } from "lucide-react"
+import { Linkedin, Twitter } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 
@@ -15,11 +15,9 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="space-y-4 max-w-xs">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-xl bg-linear-to-br from-rose-400 to-violet-500 flex items-center justify-center">
-                <PenTool size={14} className="text-white" aria-hidden="true" />
-              </div>
+              <Image src="/logo.png" alt="SpeakDiary logo" width={28} height={28} className="text-white rounded-md" aria-hidden="true" />
               <span className="text-base font-bold text-white">
-                Speak<span className="text-rose-400">Diary</span>
+                Speak<span className="text-pink-400">Diary</span>
               </span>
             </div>
             <p className="text-sm text-slate-500 leading-relaxed">
@@ -81,6 +79,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-2.5">
               {[
                 { to: "/privacy-policy",  label: "Privacy Policy" },
+                { to: "/terms-of-service", label: "Terms of Service" },
                 { to: "/refund-policy",   label: "Refund Policy" },
                 { to: "/cookie-policy",   label: "Cookie Policy" },
                 { to: "/accessibility",   label: "Accessibility" },

@@ -5,7 +5,7 @@ type StoryNode = { text: string; choices?: { label: string; next: string }[] }
 
 const STORY: Record<string, StoryNode> = {
   start:  { text: "You wake up feeling unsettled. Something from yesterday is still with you.", choices: [{ label: "Write about it", next: "write" }, { label: "Push it away", next: "push" }] },
-  write:  { text: "Words pour out — messy, honest, real. You didn't realise how much you were carrying until it was on the page.", choices: [{ label: "Go deeper", next: "deeper" }, { label: "Close the journal", next: "close" }] },
+  write:  { text: "Words pour out - messy, honest, real. You didn't realise how much you were carrying until it was on the page.", choices: [{ label: "Go deeper", next: "deeper" }, { label: "Close the journal", next: "close" }] },
   push:   { text: "By noon it's back, louder. Unfelt feelings always find their way home.", choices: [{ label: "Write now", next: "write" }] },
   deeper: { text: "You trace it back to a pattern from years ago. You see it clearly now. That's the real work.", choices: [{ label: "Start over", next: "start" }] },
   close:  { text: "Even half-full pages are enough. You close the journal and feel lighter. That's always been the point.", choices: [{ label: "Tell another story", next: "start" }] },

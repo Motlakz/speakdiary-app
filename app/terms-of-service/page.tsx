@@ -48,7 +48,7 @@ const TermsOfService = () => (
           <p>
             By accessing or using SpeakDiary (&quot;the Service&quot;), you agree to be bound by these Terms of Service
             (&quot;Terms&quot;) and our{" "}
-            <Link href="/privacy-policy" className="text-rose-500 hover:underline">Privacy Policy</Link>.
+            <Link href="/privacy-policy" className="text-pink-500 hover:underline">Privacy Policy</Link>.
             If you do not agree, you must not use the Service.
           </p>
           <p>
@@ -69,7 +69,7 @@ const TermsOfService = () => (
           <p>
             You are responsible for maintaining the confidentiality of your login credentials and for all
             activity that occurs under your account. You agree to notify us immediately at{" "}
-            <a href="mailto:support@speakdiary.com" className="text-rose-500 hover:underline">
+            <a href="mailto:support@speakdiary.com" className="text-pink-500 hover:underline">
               support@speakdiary.com
             </a>{" "}
             if you suspect unauthorised access.
@@ -112,12 +112,12 @@ const TermsOfService = () => (
         <Section title="6. Subscriptions & Payments">
           <p>
             Paid plans are billed as described on our{" "}
-            <Link href="/#pricing" className="text-rose-500 hover:underline">Pricing page</Link>.
+            <Link href="/#pricing" className="text-pink-500 hover:underline">Pricing page</Link>.
             All payments are processed securely by DodoPayments. We do not store your card details.
           </p>
           <p>
             Refunds are governed by our{" "}
-            <Link href="/refund-policy" className="text-rose-500 hover:underline">Refund Policy</Link>.
+            <Link href="/refund-policy" className="text-pink-500 hover:underline">Refund Policy</Link>.
             We reserve the right to change pricing with 30 days&apos; notice to existing subscribers.
           </p>
         </Section>
@@ -134,7 +134,7 @@ const TermsOfService = () => (
           <p>
             You may delete your account at any time from the Settings page. Upon deletion, your data
             will be permanently removed within 30 days in accordance with our{" "}
-            <Link href="/privacy-policy" className="text-rose-500 hover:underline">Privacy Policy</Link>.
+            <Link href="/privacy-policy" className="text-pink-500 hover:underline">Privacy Policy</Link>.
           </p>
           <p>
             We may suspend or terminate your account immediately, without prior notice, if you breach
@@ -184,7 +184,7 @@ const TermsOfService = () => (
         <Section title="13. Contact">
           <p>
             For questions about these Terms, contact us at{" "}
-            <a href="mailto:legal@speakdiary.com" className="text-rose-500 hover:underline">
+            <a href="mailto:legal@speakdiary.com" className="text-pink-500 hover:underline">
               legal@speakdiary.com
             </a>.
           </p>

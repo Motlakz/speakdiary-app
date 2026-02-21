@@ -114,7 +114,7 @@ const CookiePolicy = () => (
               href="https://tools.google.com/dlpage/gaoptout"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-rose-500 hover:underline"
+              className="text-pink-500 hover:underline"
             >
               Google Analytics Opt-out Browser Add-on
             </a>.
@@ -139,7 +139,7 @@ const CookiePolicy = () => (
         <Section title="8. Contact">
           <p>
             Questions about cookies? Email us at{" "}
-            <a href="mailto:privacy@speakdiary.com" className="text-rose-500 hover:underline">
+            <a href="mailto:privacy@speakdiary.com" className="text-pink-500 hover:underline">
               privacy@speakdiary.com
             </a>.
           </p>

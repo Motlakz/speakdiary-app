@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   // ── Title ──────────────────────────────────────────────────────────────
   // Lead with the highest-volume keyword naturally, add brand at the end.
   title: {
-    default: "SpeakDiary — Daily Journal Prompts, Voice Journaling & Morning Writing App",
+    default: "SpeakDiary - Daily Journal Prompts, Voice Journaling & Morning Writing App",
     template: "%s | SpeakDiary",
   },
 
@@ -101,7 +101,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     title: "SpeakDiary — Daily Journal Prompts & Voice Journaling App",
     description:
-      "365 daily journal prompts, a journal prompt of the day, morning writing prompts, and voice-to-text journaling — all in one free app. Build a reflection habit that sticks.",
+      "365 daily journal prompts, a journal prompt of the day, morning writing prompts, and voice-to-text journaling - all in one free app. Build a reflection habit that sticks.",
     images: [
       {
         url: OG_IMAGE,
@@ -117,7 +117,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@SpeakDiaryApp",
     creator: "@SpeakDiaryApp",
-    title: "SpeakDiary — Daily Journal Prompts & Voice Journaling App",
+    title: "SpeakDiary - Daily Journal Prompts & Voice Journaling App",
     description:
       "Get your journal prompt of the day, 365 daily prompts, morning writing prompts, and voice journaling in one free app.",
     images: [OG_IMAGE],
@@ -335,7 +335,7 @@ export default function RootLayout({
             fixed top-4 left-4 z-9999
             px-4 py-2 rounded-xl text-sm font-semibold
             bg-slate-900 text-white
-            focus:outline-none focus:ring-2 focus:ring-rose-500
+            focus:outline-none focus:ring-2 focus:ring-pink-500
           "
         >
           Skip to main content

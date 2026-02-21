@@ -82,7 +82,7 @@ const HomeScreen = () => (
     </div>
 
     {/* Streak card */}
-    <div className="rounded-2xl bg-linear-to-br from-rose-500 to-violet-500 p-4 text-white">
+    <div className="rounded-2xl bg-linear-to-br from-pink-500 to-violet-500 p-4 text-white">
       <div className="flex items-center justify-between">
         <div>
           <div className="flex items-center gap-1.5">
@@ -113,7 +113,7 @@ const HomeScreen = () => (
     <div className="grid grid-cols-2 gap-2">
       <button className="flex items-center gap-2 p-3 rounded-xl bg-rose-50 dark:bg-rose-950/40 border border-rose-100 dark:border-rose-800/30 text-left">
         <div className="w-7 h-7 rounded-lg bg-rose-100 dark:bg-rose-900/50 flex items-center justify-center">
-          <Mic size={13} className="text-rose-500" />
+          <Mic size={13} className="text-pink-500" />
         </div>
         <div>
           <p className="text-xs font-semibold text-slate-800 dark:text-slate-100">Voice</p>
@@ -194,7 +194,7 @@ const JournalScreen = () => {
               onClick={() => setRecording(!recording)}
               className={`w-14 h-14 rounded-full flex items-center justify-center transition-all duration-200 ${
                 recording
-                  ? "bg-rose-500 shadow-lg shadow-rose-500/30 scale-105"
+                  ? "bg-pink-500 shadow-lg shadow-pink-500/30 scale-105"
                   : "bg-slate-800 dark:bg-slate-200"
               }`}
             >
@@ -274,7 +274,7 @@ const PromptsScreen = () => {
       </div>
 
       {/* Featured prompt - fixed height to avoid layout shift */}
-      <div className="h-36 rounded-2xl bg-linear-to-br from-rose-500 to-violet-500 p-4 flex flex-col justify-between">
+      <div className="h-36 rounded-2xl bg-linear-to-br from-pink-500 to-violet-500 p-4 flex flex-col justify-between">
         <div className="flex items-start gap-3">
           <span className="text-2xl">{prompts[current].icon}</span>
           <div>
@@ -305,7 +305,7 @@ const PromptsScreen = () => {
           { name: "Gratitude", n: 52, color: "bg-amber-50 dark:bg-amber-950/30 border-amber-100 dark:border-amber-800/30 text-amber-600" },
           { name: "Growth",    n: 48, color: "bg-teal-50 dark:bg-teal-950/30 border-teal-100 dark:border-teal-800/30 text-teal-600" },
           { name: "Reflection",n: 61, color: "bg-violet-50 dark:bg-violet-950/30 border-violet-100 dark:border-violet-800/30 text-violet-600" },
-          { name: "Dreams",    n: 35, color: "bg-rose-50 dark:bg-rose-950/30 border-rose-100 dark:border-rose-800/30 text-rose-500" },
+          { name: "Dreams",    n: 35, color: "bg-rose-50 dark:bg-rose-950/30 border-rose-100 dark:border-rose-800/30 text-pink-500" },
         ].map((c, i) => (
           <div key={i} className={`p-3 rounded-xl border ${c.color}`}>
             <p className="text-xs font-semibold">{c.name}</p>
@@ -405,7 +405,7 @@ const InsightsScreen = () => {
       {/* Stats */}
       <div className="grid grid-cols-2 gap-2">
         {[
-          { v: "127", l: "Entries", sub: "+15% this month", c: "text-rose-500" },
+          { v: "127", l: "Entries", sub: "+15% this month", c: "text-pink-500" },
           { v: "42d", l: "Best streak", sub: "Personal best!", c: "text-violet-500" },
         ].map((s, i) => (
           <div key={i} className="p-3 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-700/50 text-center">
@@ -517,7 +517,7 @@ const InteractiveDemo = () => {
                 <PenTool size={11} className="text-white" />
               </div>
               <span className="text-sm font-bold text-slate-800 dark:text-slate-100">
-                Speak<span className="text-rose-500">Diary</span>
+                Speak<span className="text-pink-500">Diary</span>
               </span>
             </div>
             <div className="w-6 h-6 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-[10px] font-bold text-slate-500">
@@ -538,7 +538,7 @@ const InteractiveDemo = () => {
                 onClick={() => { setScreen(id); setAutoPlay(false) }}
                 className={`flex flex-col items-center gap-0.5 px-2 py-1.5 rounded-xl transition-all duration-150 ${
                   screen === id
-                    ? "text-rose-500 bg-rose-50 dark:bg-rose-950/40"
+                    ? "text-pink-500 bg-rose-50 dark:bg-rose-950/40"
                     : "text-slate-400 dark:text-slate-500 hover:text-slate-600"
                 }`}
               >
@@ -564,7 +564,7 @@ const InteractiveDemo = () => {
               onClick={() => { setScreen(id); setAutoPlay(false) }}
               className={`rounded-full transition-all duration-300 ${
                 screen === id
-                  ? "w-5 h-1.5 bg-rose-500"
+                  ? "w-5 h-1.5 bg-pink-500"
                   : "w-1.5 h-1.5 bg-slate-300 dark:bg-slate-600"
               }`}
             />

@@ -128,7 +128,7 @@ export default function Navbar() {
                 priority
               />
               <span className="font-semibold text-[15px] tracking-tight text-slate-800 dark:text-slate-100">
-                Speak<span className="text-rose-500">Diary</span>
+                Speak<span className="text-pink-500">Diary</span>
               </span>
             </Link>
 

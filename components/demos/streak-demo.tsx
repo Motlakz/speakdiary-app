@@ -29,7 +29,7 @@ const StreakDemo = () => {
       {/* Streak counter */}
       <div className={`rounded-2xl py-3 px-4 flex items-center justify-center gap-3 transition-all duration-400 ${
         flash
-          ? "bg-linear-to-r from-orange-400 to-rose-500 shadow-lg shadow-orange-400/30"
+          ? "bg-linear-to-r from-orange-400 to-pink-500 shadow-lg shadow-orange-400/30"
           : "bg-slate-900 dark:bg-slate-100"
       }`}>
         <span className="text-2xl">{mileslate ? "🏆" : flash ? "🎉" : "🔥"}</span>

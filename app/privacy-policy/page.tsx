@@ -23,7 +23,7 @@ const PrivacyPolicy = () => (
       {/* Header */}
       <div className="space-y-3">
         <div className="w-10 h-10 rounded-2xl bg-rose-50 dark:bg-rose-950/40 border border-rose-100 dark:border-rose-800/30 flex items-center justify-center">
-          <Shield size={18} className="text-rose-500" aria-hidden="true" />
+          <Shield size={18} className="text-pink-500" aria-hidden="true" />
         </div>
         <h1
           className="text-3xl font-playfair font-bold text-slate-900 dark:text-slate-50"
@@ -98,7 +98,7 @@ const PrivacyPolicy = () => (
           </ul>
           <p>
             To exercise any of these rights, email us at{" "}
-            <a href="mailto:privacy@speakdiary.com" className="text-rose-500 hover:underline">
+            <a href="mailto:privacy@speakdiary.com" className="text-pink-500 hover:underline">
               privacy@speakdiary.com
             </a>.
           </p>
@@ -132,7 +132,7 @@ const PrivacyPolicy = () => (
         <Section title="10. Contact Us">
           <p>
             Questions or concerns? Reach us at{" "}
-            <a href="mailto:privacy@speakdiary.com" className="text-rose-500 hover:underline">
+            <a href="mailto:privacy@speakdiary.com" className="text-pink-500 hover:underline">
               privacy@speakdiary.com
             </a>.
           </p>

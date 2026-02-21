@@ -64,7 +64,7 @@ const RefundPolicy = () => (
 
         <Section title="3. How to Request a Refund">
           <p>Email us at{" "}
-            <a href="mailto:billing@speakdiary.com" className="text-rose-500 hover:underline">
+            <a href="mailto:billing@speakdiary.com" className="text-pink-500 hover:underline">
               billing@speakdiary.com
             </a>{" "}
             with:
@@ -116,7 +116,7 @@ const RefundPolicy = () => (
         <Section title="8. Contact">
           <p>
             For any billing questions, email{" "}
-            <a href="mailto:billing@speakdiary.com" className="text-rose-500 hover:underline">
+            <a href="mailto:billing@speakdiary.com" className="text-pink-500 hover:underline">
               billing@speakdiary.com
             </a>.
           </p>

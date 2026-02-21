@@ -6,7 +6,7 @@ const PILLARS = [
     icon: Mic,
     title: "Voice-first design",
     body: "Speak naturally and watch your words appear. Real-time transcription makes capturing raw thoughts effortless.",
-    accent: "text-rose-500",
+    accent: "text-pink-500",
     bg: "bg-rose-50 dark:bg-rose-950/40",
     border: "border-rose-100 dark:border-rose-800/30",
   },
@@ -43,14 +43,14 @@ function AboutSection() {
       <div className="relative z-10 max-w-6xl mx-auto px-5 sm:px-8 lg:px-12">
         {/* Header */}
         <div className="max-w-2xl mx-auto text-center mb-16 space-y-4">
-          <span className="inline-block text-xs font-semibold uppercase tracking-widest text-rose-500 px-3 py-1 rounded-full bg-rose-50 dark:bg-rose-950/40 border border-rose-100 dark:border-rose-800/30">
+          <span className="inline-block text-xs font-semibold uppercase tracking-widest text-pink-500 px-3 py-1 rounded-full bg-rose-50 dark:bg-rose-950/40 border border-rose-100 dark:border-rose-800/30">
             Our story
           </span>
           <h2
             className="text-[clamp(2rem,4vw,3rem)] font-playfair font-bold leading-tight text-slate-900 dark:text-slate-50 tracking-tight"
           >
             Journaling, reimagined for{" "}
-            <span className="italic text-rose-500">how you actually think.</span>
+            <span className="italic text-pink-500">how you actually think.</span>
           </h2>
           <p className="text-base sm:text-lg text-slate-500 dark:text-slate-400 leading-relaxed">
             SpeakDiary was built around a simple belief - the best journal is one you&apos;ll
@@ -89,8 +89,8 @@ function AboutSection() {
               <button
                 className="
                   inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold
-                  bg-rose-500 hover:bg-rose-600 text-white
-                  transition-colors duration-200 shadow-lg shadow-rose-500/20
+                  bg-pink-500 hover:bg-rose-600 text-white
+                  transition-colors duration-200 shadow-lg shadow-pink-500/20
                 "
               >
                 Start your journey

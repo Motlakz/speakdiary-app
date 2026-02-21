@@ -50,7 +50,7 @@ const AccessibilityPage = () => (
               href="https://www.w3.org/TR/WCAG21/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-rose-500 hover:underline"
+              className="text-pink-500 hover:underline"
             >
               Web Content Accessibility Guidelines (WCAG) 2.1, Level AA
             </a>. We are continuously
@@ -106,7 +106,7 @@ const AccessibilityPage = () => (
           <ul className="list-disc list-inside space-y-1 pl-1">
             <li>
               Email:{" "}
-              <a href="mailto:accessibility@speakdiary.com" className="text-rose-500 hover:underline">
+              <a href="mailto:accessibility@speakdiary.com" className="text-pink-500 hover:underline">
                 accessibility@speakdiary.com
               </a>
             </li>
@@ -122,7 +122,7 @@ const AccessibilityPage = () => (
               href="https://www.sahrc.org.za/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-rose-500 hover:underline"
+              className="text-pink-500 hover:underline"
             >
               South African Human Rights Commission
             </a>.

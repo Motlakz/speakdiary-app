@@ -1,3 +1,4 @@
+import { BiLogoPlayStore } from "react-icons/bi"
 import InteractiveDemo from "./interactive-demo"
 
 /* ---------- App Store Badges ---------- */
@@ -25,9 +26,7 @@ const PlayStoreBadge = () => (
     className="inline-flex items-center gap-3 px-5 py-3 rounded-2xl bg-white dark:bg-slate-900 text-slate-900 dark:text-white border border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors duration-200 shadow-lg"
   >
     {/* Play icon */}
-    <svg viewBox="0 0 24 24" className="w-5 h-5 shrink-0 fill-current" aria-hidden="true">
-      <path d="M3 20.5v-17c0-.83.94-1.3 1.6-.8l14 8.5c.6.37.6 1.23 0 1.6l-14 8.5c-.66.5-1.6.03-1.6-.8z"/>
-    </svg>
+    <BiLogoPlayStore />
     <span className="text-left leading-tight">
       <span className="block text-[10px] opacity-60 font-normal">Get it on</span>
       <span className="block text-sm font-semibold tracking-tight">Google Play</span>
@@ -95,7 +94,7 @@ const HeroSection = () => {
                 className="text-[clamp(2.6rem,5vw,4rem)] font-playfair font-bold leading-[1.1] tracking-tight text-slate-900 dark:text-slate-50"
               >
                 The journal that{" "}
-                <span className="italic text-rose-500">listens</span>
+                <span className="italic text-pink-500">listens</span>
                 <br />
                 as well as it{" "}
                 <span className="italic text-violet-500">reads.</span>

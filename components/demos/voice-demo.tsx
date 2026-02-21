@@ -66,7 +66,7 @@ const VoiceDemo = () => {
         aria-label={recording ? "Stop recording" : "Start voice recording"}
         className={`w-14 h-14 rounded-full flex items-center justify-center transition-all duration-200 shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400 ${
           recording
-            ? "bg-rose-500 shadow-rose-400/40 scale-110 ring-4 ring-rose-200 dark:ring-rose-800"
+            ? "bg-pink-500 shadow-rose-400/40 scale-110 ring-4 ring-rose-200 dark:ring-rose-800"
             : "bg-slate-900 dark:bg-slate-100 hover:scale-105"
         }`}
       >

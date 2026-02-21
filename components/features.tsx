@@ -31,7 +31,7 @@ const FEATURES: FeatureDef[] = [
     icon: Mic,
     title: "Voice Journaling",
     description: "Speak naturally and watch your words appear in real time. The fastest way to capture raw, unfiltered thoughts.",
-    accent: "text-rose-500",
+    accent: "text-pink-500",
     bg: "bg-rose-50 dark:bg-rose-950/40",
     border: "border-rose-100 dark:border-rose-800/30",
     tag: "Core",
