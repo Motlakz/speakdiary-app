@@ -82,7 +82,6 @@ const Footer: React.FC = () => {
                 { to: "/terms-of-service", label: "Terms of Service" },
                 { to: "/refund-policy",   label: "Refund Policy" },
                 { to: "/cookie-policy",   label: "Cookie Policy" },
-                { to: "/accessibility",   label: "Accessibility" },
               ].map(({ to, label }) => (
                 <li key={to}>
                   <Link
