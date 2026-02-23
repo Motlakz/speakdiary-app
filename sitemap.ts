@@ -41,31 +41,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Always included — required by app stores and trusted by crawlers.
     {
       url: `${SITE_URL}/privacy-policy`,
-      lastModified: "2025-01-01",
+      lastModified: "2026-02-23",
       changeFrequency: "yearly",
       priority: 0.4,
     },
     {
       url: `${SITE_URL}/terms-of-service`,
-      lastModified: "2025-01-01",
+      lastModified: "2026-02-23",
       changeFrequency: "yearly",
       priority: 0.4,
     },
     {
       url: `${SITE_URL}/refund-policy`,
-      lastModified: "2025-01-01",
+      lastModified: "2026-02-23",
       changeFrequency: "yearly",
       priority: 0.3,
     },
     {
       url: `${SITE_URL}/cookie-policy`,
-      lastModified: "2025-01-01",
+      lastModified: "2026-02-23",
       changeFrequency: "yearly",
       priority: 0.3,
     },
     {
       url: `${SITE_URL}/accessibility`,
-      lastModified: "2025-01-01",
+      lastModified: "2026-02-23",
       changeFrequency: "yearly",
       priority: 0.3,
     },
